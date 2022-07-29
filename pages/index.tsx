@@ -11,7 +11,11 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <CodeEditorComponent />
+      <div className="w-2/3 h-full">
+        <div className="bg-violet-700 text-white text-center">HEADER</div>
+        <CodeEditorComponent />
+        <div className="bg-violet-100">FOOTER</div>
+      </div>
     </div>
   );
 };

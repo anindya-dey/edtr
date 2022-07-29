@@ -22,10 +22,8 @@ export default function CodeEditorComponent() {
 
   return (
     <>
-      <div className="w-2/3 h-full">
-        <div className="bg-violet-700 text-white text-center">HEADER</div>
+      <div>
         <div ref={editor} className="bg-gray-100 h-screen"></div>
-        <div className="bg-violet-100">FOOTER</div>
       </div>
     </>
   );
