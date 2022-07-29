@@ -9,8 +9,7 @@ export default function CodeEditorComponent({ language, code }: { language: stri
         height={"85vh"}
         width={"100%"}
         language={language || "javascript"}
-        value={codeValue}
-
+        value={`${codeValue}\n\n`}
       />
     </>
   );
