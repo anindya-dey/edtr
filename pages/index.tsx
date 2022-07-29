@@ -5,7 +5,7 @@ import { EditorState } from "@codemirror/state";
 import { EditorView, basicSetup } from "codemirror";
 
 const Home: NextPage = () => {
-  const editor = useRef(new HTMLDivElement());
+  const editor = useRef(<div></div>);
 
   useEffect(() => {
     const startState = EditorState.create({
