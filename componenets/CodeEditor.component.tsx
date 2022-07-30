@@ -10,6 +10,7 @@ export default function CodeEditorComponent({ language, code }: { language: stri
         width={"100%"}
         language={language || "javascript"}
         value={`${codeValue}\n\n`}
+        theme="vs-dark"
       />
     </>
   );
