@@ -1,11 +1,11 @@
 import React from "react";
 import type { NextPage } from "next";
-import { CodeEditor, Layout } from "../componenets";
+import { CodeEditor, Layout } from "../components";
 
 const Home: NextPage = () => {
   return (
     <Layout>
-      <CodeEditor language="javascript" code="// Your code goes here..." />
+      <CodeEditor />
     </Layout>
   );
 };
