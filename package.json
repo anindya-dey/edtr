@@ -6,7 +6,10 @@
     "start": "next start"
   },
   "dependencies": {
-    "@monaco-editor/react": "^4.4.5",
+    "@codemirror/lang-lezer": "^6.0.0",
+    "@codemirror/language-data": "^6.1.0",
+    "@uiw/codemirror-extensions-langs": "^4.11.4",
+    "@uiw/react-codemirror": "^4.11.4",
     "next": "latest",
     "react": "18.1.0",
     "react-dom": "18.1.0"
