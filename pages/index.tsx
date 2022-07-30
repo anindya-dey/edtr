@@ -11,7 +11,9 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <CodeEditorComponent />
+      <div className="w-2/3">
+        <CodeEditorComponent language="javascript" code="// Your code goes here..."/>
+      </div>
     </div>
   );
 };
