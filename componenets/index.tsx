@@ -1,1 +1,2 @@
-export { default as CodeEditorComponent } from "./CodeEditor.component";
+export { default as Layout } from "./Layout";
+export { default as CodeEditor } from "./CodeEditor";
