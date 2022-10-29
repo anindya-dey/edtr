@@ -10,7 +10,7 @@
     "@codemirror/language-data": "^6.1.0",
     "@uiw/codemirror-extensions-langs": "^4.11.4",
     "@uiw/react-codemirror": "^4.11.4",
-    "next": "latest",
+    "next": "^13.0.0",
     "react": "18.1.0",
     "react-dom": "18.1.0"
   },
