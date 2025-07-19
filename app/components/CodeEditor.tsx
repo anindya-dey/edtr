@@ -1,3 +1,5 @@
+"use client";
+
 import CodeMirror from "@uiw/react-codemirror";
 import { langs } from "@uiw/codemirror-extensions-langs";
 
@@ -7,8 +9,8 @@ export default function CodeEditor() {
     <>
       <div className="min-w-full">
         <CodeMirror
-          className="shadow-lg"
-          height="85vh"
+          className="text-black"
+          height="100vh"
           placeholder={"Type your code here..."}
           basicSetup={{
             foldGutter: false,
